@@ -1,0 +1,144 @@
+/*font imports from google-fonts*/
+@import url('https://fonts.googleapis.com/css?family=Coda|Monofett|Niconne|Redressed|Cutive|Lateef|Dosis|Sacramento|Great+Vibes|Squada+One');
+
+body{
+	font-family: 'Dosis', cursive;
+}
+
+
+
+#bg-wrapper{
+	background-image: url('../img/rush/backsky-right.jpg');
+	background-size:cover; 
+	background-attachment:fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 640px;
+
+}
+.sr-opacity{
+
+	background: rgba(39, 42, 47, 0.6);
+}
+
+.navbar-nav > li > a, .navbar-brand {
+	padding-top:5px !important; padding-bottom:0 !important;
+	height: 30px;
+}
+.navbar {min-height:30px !important;}
+
+/*mobile navbar content center*/
+.navbar-collapse {
+	text-align:center;
+}
+
+@media (min-width: 768px){
+    .navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+}
+
+/*transaparent background*/
+.sr-trans-bg{
+background: rgba(39, 42, 47, 0.6);
+}
+
+/* typing effect  */
+.typewriter h1 {
+	font-family: 'Squada One', cursive;
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: .15em solid deeppink; /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	letter-spacing: .15em; /* Adjust as needed */
+	animation:
+			typing 3.5s steps(40, end),
+			blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% { border-color: deeppink; }
+}
+
+
+#home-content
+{
+	font-family: 'Niconne', cursive;
+
+}
+
+.glyphicon-large-black
+{
+	font-size: 20px;
+	color:black;
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+
+}
+.glyphicon-large-blue
+{
+	font-size: 20px;
+	color:deepskyblue;
+
+}
+.glyphicon-large-pink
+{
+	font-size: 20px;
+	color:deeppink;
+
+}
+.glyphicon-large-yellow
+{
+font-size: 20px;
+color:yellow;
+}
+.glyphicon-large-green
+{
+	font-size: 20px;
+	color:lawngreen;
+}
+.glyphicon-large-brown
+{
+	font-size: 20px;
+	color:#d05a05;
+}
+
+
+/*progress bar heiht changed*/
+.progress {height: 10px;font-size: xx-small;}
+.progress .sr-only { position: relative; }
+
+.progress-label {
+	float: left;
+	margin-right: 1em;
+	margin-top: -0.4em;
+}
+
+.panel-heading{
+	height: 20px;
+
+}
+.panel-title{
+	font-size:small;
+	font-weight: 600;
+	margin-top: -0.6em;
+}
+.heading
+{
+	font-weight: 600;
+}
+.sr-vertical-line{
+	padding-right:20px;
+	border-right: 5px solid black;
+}
